@@ -7,7 +7,9 @@ authors = [
     { name = "rina-kaku", email = "s2622019@stu.musashino-u.ac.jp" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "flet>=1.1.3",
+]
 
 [project.scripts]
 no1 = "no1:main"
